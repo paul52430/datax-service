@@ -40,12 +40,17 @@
             <version>${datax-project-version}</version>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.oracle</groupId>-->
+<!--            <artifactId>ojdbc6</artifactId>-->
+<!--            <version>11.2.0.3</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${basedir}/src/main/lib/ojdbc6-11.2.0.3.jar</systemPath>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>com.oracle</groupId>
+            <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.3</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/lib/ojdbc6-11.2.0.3.jar</systemPath>
+            <version>11.2.0.4</version>
         </dependency>
 
     </dependencies>
